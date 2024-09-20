@@ -43,7 +43,6 @@
   <li>5º execute npm run dev para rodar servidor </li>
   <li>6º siga os mesmos passos para o Frontend, exceto pelo arquivo .env que não precisa cria-lo </li>
   <li>7º crie uma imagem docker do postgresql com bitnami</li>
-  <li><a href="https://hcinfo9.github.io/Projeto-Coin-Conversion">Clique Aqui para Acessar o Projeto</a></li>
 </ul>
 
 
