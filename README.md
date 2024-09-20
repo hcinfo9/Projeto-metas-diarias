@@ -28,23 +28,21 @@
 
 <h3>Requisitos: </h3>
 <ul>
-  <li>-> Ter o Node instado na sua maquina, <a href='https://nodejs.org/en/download/prebuilt-installer'>Baixe agora</a></li>
-  <li>-> Ter o VSCode instalado em sua maquina <a href='https://code.visualstudio.com/download'>Baixe aqui</a></li>
-  <li>-> Ter o Docker instalado na maquina <a href='https://www.docker.com/products/docker-desktop/'>Baixe agora</li>
-<li></li>
-  <li></li>
+  <li>-> Ter o Node instado na sua maquina, baixe por aqui: <a href='https://nodejs.org/en/download/prebuilt-installer'>Download</a></li>
+  <li>-> Ter o VSCode instalado em sua maquina, baixe por aqui: <a href='https://code.visualstudio.com/download'>Download</a></li>
+  <li>-> Ter o Docker instalado na maquina, baixe por aqui: <a href='https://www.docker.com/products/docker-desktop/'>Download</li>
 </ul>
 
 
 <h3>Como Utilizar:</h3>
 <ul>
-  <li>Selecione a moeda de origem e a moeda de destino nos campos correspondentes.</li>
-  <li>Insira o valor a ser convertido no campo de entrada.</li>
-  <li>Clique no botão "Convert" para realizar a conversão.</li>
-  <li>O resultado da conversão será exibido na tela.</li>
-  <li>Abra o arquivo index.html em um navegador web compatível.</li>
-  <li>Navegador da Web Moderno (Google Chrome, Mozilla Firefox, Safari, etc.)</li>
-  <li>Conexão à Internet Ativa.</li>
+  <li>1º Baixe o projeto para sua maquina, faça um git clone do mesmo</li>
+  <li>2º Abra o diretorio do backend no terminal</li>
+  <li>3º execute npm install para instalar todas as dependencias do servidor</li>
+  <li>4º crie o arquivo .env com base no arquivo .env.example fornecido</li>
+  <li>5º execute npm run dev para rodar servidor </li>
+  <li>6º siga os mesmos passos para o Frontend, exceto pelo arquivo .env que não precisa cria-lo </li>
+  <li>7º crie uma imagem docker do postgresql com bitnami</li>
   <li><a href="https://hcinfo9.github.io/Projeto-Coin-Conversion">Clique Aqui para Acessar o Projeto</a></li>
 </ul>
 
