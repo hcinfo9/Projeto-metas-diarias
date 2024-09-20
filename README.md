@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Metas Diarias</h1>
+<h1 align="center">Projeto Metas Diárias</h1>
 
 <!--<p align="center"><a href="https://hcinfo9.github.io/Projeto-Coin-Conversion/" >Visite meu Site</a></p>-->
 
@@ -6,7 +6,7 @@
 
 <h2 align="center">Funcionalidades Principais:</h2><br>
 
-<p>Controle de metas diarias: Permite ao usuário escolher quais atividades ele quer realizar na semana, e quantas vezes ele fará cada atividade </p><br>
+<p>Controle de metas diárias: Permite ao usuário escolher quais atividades ele quer realizar na semana, e quantas vezes ele fará cada atividade </p><br>
 
 
 <img align="center" width="5000px" src= "https://github.com/user-attachments/assets/81ad375c-4d9c-4c3c-a3c4-2e461b1fbb6d"/><br>
