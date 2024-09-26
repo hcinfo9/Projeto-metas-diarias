@@ -1,10 +1,15 @@
-import { Plus } from 'lucide-react'
+import { Plus, X } from 'lucide-react'
 import { OutlineButton } from './ui/outline-button'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { getPendingGoals } from '../http/get-pending-goals'
 import { createGoalCompletion } from '../http/create-goal-completion'
+import { DeleteGoalPending } from './delete-goal-pending'
 
 export function PendingGoals() {
+  const handleClick = ({ goalId }: { goalId: string }) => {
+    DeleteGoalPending({ goalId })
+  }
+
   const queryClient = useQueryClient()
 
   const { data, isLoading } = useQuery({
@@ -33,7 +38,14 @@ export function PendingGoals() {
             onClick={() => handleCreateGoalCompletion(goal.id)}
           >
             <Plus className="size-4 text-zinc-600" />
-            {goal.title}
+            {goal.title}{' '}
+            <X
+              className="size-5 text-zinc-600"
+              onClick={event => {
+                event.stopPropagation()
+                handleClick({ goalId: goal.id })
+              }}
+            />
           </OutlineButton>
         )
       })}

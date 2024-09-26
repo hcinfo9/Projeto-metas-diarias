@@ -23,7 +23,7 @@ export function App() {
   return (
     <Dialog>
       {data.summary.total > 0 ? (
-        <WeeklySummary summary={data.summary} />
+        <WeeklySummary summary={data?.summary} />
       ) : (
         <EmptyGoals />
       )}
