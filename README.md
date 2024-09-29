@@ -1,51 +1,173 @@
-<h1 align="center">Projeto Metas Diárias</h1>
+# Projeto Metas Diárias (_FullStack_)
 
-<!--<p align="center"><a href="https://hcinfo9.github.io/Projeto-Coin-Conversion/" >Visite meu Site</a></p>-->
+Projeto consiste em um **Gerenciador de Metas diarias**, a aplicação foi desenvolvida com **NodeJS**, utilizando **TypeScript**, **Drizzle-ORM**, **PostGreSQL**, **Docker** e **Biome** no backend. O FrontEnd foi desenvolvido com **React**, **Tailwind** e **Vite**. Foram aplicados principios de SOLID e CLEAN CODE para garantir uma estrutura sólida e componentes estilizados. 
 
-<h2>Projeto consiste em um Gerenciador de Metas diarias, que lhe permite estabelecer novas metas e marca-las como concluida assim que concluir.</h2>
+<img align="center" width="500px" height="300px" src= "https://github.com/user-attachments/assets/81ad375c-4d9c-4c3c-a3c4-2e461b1fbb6d"/><br>
 
-<h2 align="center">Funcionalidades Principais:</h2><br>
-
-<p>Controle de metas diárias: Permite ao usuário escolher quais atividades ele quer realizar na semana, e quantas vezes ele fará cada atividade </p><br>
+<img align="center" width="500px" height="300px" src= "https://github.com/user-attachments/assets/76fc7ca7-4164-4b67-b168-c45eebd2e9d9"/><br>
 
 
-<img align="center" width="5000px" src= "https://github.com/user-attachments/assets/81ad375c-4d9c-4c3c-a3c4-2e461b1fbb6d"/><br>
-<img align="center" width="5000px" src= "https://github.com/user-attachments/assets/76fc7ca7-4164-4b67-b168-c45eebd2e9d9"/><br>
+## Tecnologias Utilizadas
 
 
-<h2 align="center">Principais Tecnologias Utilizadas</h2>
+- **[NodeJS](https://nodejs.org/)**: Utilizado para criar o Servidor, comunicação com banco de dados e as rotas da API.
+- **[React](https://react.dev/)**: Framework utilizado para criar a interface grafica para gerenciar e adicionar novas metas.
+- **[Tailwind](https://tailwindcss.com/)**: Biblioteca CSS utilizada para estilizar a pagina , definir os elementos e aspectos visuais.
+- **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática.
+- **[PostGreSQL](https://www.postgresql.org/)**: Banco de dados utilizado para organizar e manter nossas metas guardadas.
+- **[Docker](https://www.docker.com/)**: Utilizado para criar uma imagem Postgres, assim permitindo executar o banco de dados mesmo sem instala-lo na maquina.
+- **[Drizzle-ORM](https://orm.drizzle.team/)**: utilizado para integrar o servidor com o PostgreSQL e também para o gerenciamento do banco de dados. Ele oferece tipagem estática avançada com TypeScript, migrações automáticas e suporte a consultas complexas, além de ser otimizado para desempenho.
 
-<ul>
-    <li><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="node-icon"/><br>NodeJS: Utilizado para criar o Servidor, comunicação com banco de dados e as rotas da API.</li><br>
-    <li><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react-icon"/><br>React: Utilizado para criar a interface grafica amigavél para gerenciar e adicionar novas metas.</li><br>
-    <li><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwind-icon"/><br>Tailwind: Biblioteca CSS utilizada para estilizar a pagina , definir os elementos e aspetos visuais.</li><br>
-    <li><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Type-icon"/><br>TypeScript: Utilizado para melhorar qualidade e confiabilidade da nossa aplicação.</li><br>
-    <li><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="Post-icon"/><br>PostGreSQL: Banco de dados utilizado para organizar e manter nossas metas guardadas.</li><br>
-    <li><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker-icon"/><br>Docker: Utilizado para criar uma imagem Postgres, assim permitindo executar o banco de dados mesmo sem instala-lo na maquina.</li><br>
-    <li><img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git-icon"/><br>Git: Utilizado para controlar e verificar nosso fluxo de versões da aplicação, podendo reverter alguma alteração quando necessario.</li><br>
-</ul><br>
+
+
+
+## Funcionalidades 
+
+- Consultar metas pendentes e resumo geral.
+- Criar metas.
+- Marcar metas como concluídas.
+- Deletar metas pendentes e metas concluídas.
+- Interface limpa e responsiva, estilizada com Tailwind.
+
+
+
+
+
+
       
 
-<h3>Requisitos: </h3>
-<ul>
-  <li>-> Ter o Node instado na sua maquina, baixe por aqui: <a href='https://nodejs.org/en/download/prebuilt-installer'>Download</a></li>
-  <li>-> Ter o VSCode instalado em sua maquina, baixe por aqui: <a href='https://code.visualstudio.com/download'>Download</a></li>
-  <li>-> Ter o Docker instalado na maquina, baixe por aqui: <a href='https://www.docker.com/products/docker-desktop/'>Download</li>
-</ul>
+## Pré-requisitos
+
+- **NodeJS**: [Instalar NodeJS](https://nodejs.org/)
+- **npm**: (Gerenciador de pacotes) ou Yarn
+- **Docker**:[Instalar Docker](https://www.docker.com/products/docker-desktop/)
 
 
-<h3>Como Utilizar:</h3>
-<ul>
-  <li>1º Baixe o projeto para sua maquina, faça um git clone do mesmo</li>
-  <li>2º Abra o diretorio do backend no terminal</li>
-  <li>3º execute npm install para instalar todas as dependencias do servidor</li>
-  <li>4º crie o arquivo .env com base no arquivo .env.example fornecido</li>
-  <li>5º execute npm run dev para rodar servidor </li>
-  <li>6º siga os mesmos passos para o Frontend, exceto pelo arquivo .env que não precisa cria-lo </li>
-  <li>7º crie uma imagem docker do postgresql com bitnami</li>
-</ul>
+## Instalação 
+
+Siga as etapas para instalar e executar o projeto localmente:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/hcinfo9/Projeto-metas-diarias.git
+   ```
+
+2. Acesse o diretório do projeto:
+
+- Realize o acesso ao back e front em terminais separados para evitar erros.
+   
+   ```bash
+   # no backend
+   cd Projeto-metas-diarias/backend
+   ```
 
 
-<h3>Autor:<br><br>
-Este projeto foi desenvolvido por Henrique Donato como parte de um desafio pra aprimorar minhas habilidades.</h3>
+    ```bash
+   # no frontend
+   cd Projeto-metas-diarias/FrontEnd
+   ```
+
+3. Instale as dependências:
+    
+   - Instale as dependencias na janela do terminal back e front separamente.
+  
+   ```bash
+   npm install
+   ```
+
+   ou, se estiver utilizando Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+4. Execute o servidor e a interface web de desenvolvimento:
+
+   - Execute o back e front em terminais separados .
+
+   ```bash
+   npm run dev
+   ```
+
+   ou
+
+   ```bash
+   yarn dev
+   ```
+
+5. Crie e inicie o container docker rodando a imagem do PostgreSQL:
+
+    ```bash
+    # execute o comando no terminal do diretorio backend da aplicação
+   docker-compose up
+   ```
+
+6. abra o navegador e acesse:
+
+   ```
+   http://localhost:5173
+   ```
+
+## Scripts Disponíveis
+
+## BackEnd
+- **`npm run dev`**: Executa o servidor de desenvolvimento Node.js.
+- **`npm run build`**: Cria uma versão de produção da aplicação.
+- **`npm run start`**: Inicia o servidor em produção após o build.
+
+## FrontEnd
+- **`npm run dev`**: Executa nossa interface web de desenvolvimento em React.
+- **`npm run build`**: Cria uma versão de produção da aplicação.
+
+
+## Estrutura de Pastas
+
+A estrutura principal do projeto é a seguinte:
+
+```bash
+# BackEnd
+├── migrations/        # Arquivos que criam nossas tabelas no banco de dados 
+├── src/
+│   ├── db/            # Arquivos de conexão, schema e seed do banco de dados
+│   ├── functions/     # Arquivos que executão as funções chamadas por cada rota da aplicação. 
+│   ├── http/
+|   |   ├── routes/    # Arquivos das rotas da aplicação
+|   |   └── server.ts  # Arquivo que executa nosso servidor
+|   | 
+│   └── env.ts         # Arquivo que valida e exporta nossas variaveis de ambiente.
+├── biome.json         # Configuração do biome
+├── docker-compose.yml # Configuração do docker compose para rodar nossa imagem PostGreSQL
+├── tsconfig.json      # Configuração do TypeScript
+├── .env.example       # Arquivo de exemplo das variaveis de ambiente, crie o arquivo  .env e configure o corretamente.
+└── package.json       # Dependências e scripts do projeto
+
+```
+
+```bash
+# FrontEnd
+├── public/                 # contém nosso arquivo com nosso icon.svg.
+├── src/
+│   ├── assets/             # contém nossas imagens da interface.
+│   ├── components/         # Arquivos onde estão todos os nossos componentes React. 
+│   ├── http/               # Arquivos que realizam requisições HTTP para nosso Server.
+│   ├── app.tsx             # Arquivo que renderiza nossos componentes na tela e permite acessar interface atravez de uma URL.
+|   ├── index.css           # Arquivo que importa as diferentes camadas de estilos do Tailwind CSS.
+|   ├── main.tsx            # inicializa a aplicação React, renderizando o componente App dentro do StrictMode.
+|   └── vite-env.d.ts       # define os tipos necessários para garantir que o TypeScript reconheça corretamente as config do Vite.
+|                      
+├── biome.json              # Configuração do biome.
+├── postcss.config.js       # processa o CSS da sua aplicação com as funcionalidades do Tailwind CSS. 
+├── docker-compose.yml      # Configuração do docker compose para rodar nossa imagem PostGreSQL.
+├── tsconfig.json           # Configuração do TypeScript.
+├── tailwind.config.js      # Arquivo de configuração do Tailwind.
+├── vite.config.ts          # Arquivo de configuração do Vite
+└── package.json            # Dependências e scripts do projeto.
+
+```
+
+
+## Autor
+
+Este projeto foi desenvolvido por Henrique Donato como parte de um desafio pra aprimorar minhas habilidades.
 
